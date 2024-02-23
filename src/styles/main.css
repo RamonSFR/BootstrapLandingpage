@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+
+::root {
+    --color1: #253237;
+    --color2: #5C6B73;
+    --color3: #9db4c0;
+    --color4: #c2dfe3;
+    --color5: #e0fbfc;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+    background-color: #5C6B73; 
+}
+
+.section-title,
+.section-title:hover,
+.nav-link:hover,
+.nav-link {
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #e0fbfc;
+    color: #253237;
+}
