@@ -48,6 +48,11 @@ span {
     color: #ffeae6;
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(50%);
+}
+
 #products {
     background-color: #253237;
 }
