@@ -19,9 +19,11 @@
 
 .section-title,
 .section-title:hover,
-.nav-link:hover,
-.nav-link,
-.nav-link:focus {
+#cabecalho .nav-link:hover,
+#cabecalho .nav-link,
+#cabecalho .nav-link:focus,
+.nav-produtos .nav-link ,
+.text-white {
     color: #fff;
 }
 
@@ -46,3 +48,16 @@ span {
     color: #ffeae6;
 }
 
+#products {
+    background-color: #253237;
+}
+
+.nav-produtos .nav-link.active {
+    background-color: #c2dfe3;
+    color: #253237;
+}
+
+.nav-produtos .nav-link:hover,
+.text-colored {
+    color: #5C6B73;
+}
