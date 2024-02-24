@@ -17,7 +17,6 @@
     background-color: #5C6B73; 
 }
 
-.section-title,
 .section-title:hover,
 #cabecalho .nav-link:hover,
 #cabecalho .nav-link,
@@ -54,7 +53,8 @@ span {
     filter: invert(50%);
 }
 
-#products {
+#products,
+#support {
     background-color: #253237;
 }
 
