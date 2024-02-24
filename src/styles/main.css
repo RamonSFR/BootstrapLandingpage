@@ -32,7 +32,8 @@
     color: #253237;
 }
 
-.navbar-toggler {
+.navbar-toggler,
+#reviews {
     background-color: #e0fbfc;
 }
 
@@ -65,4 +66,22 @@ span {
 .nav-produtos .nav-link:hover,
 .text-colored {
     color: #5C6B73;
+}
+
+.review-card {
+    background-color: #fff;
+    border-radius: 14px;
+    padding: 16px;
+    box-shadow: 4px 4px 16px rgba(0,0,0,0.35);
+}
+
+.review-card img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .review-card img {
+        display: none;
+    }
 }
