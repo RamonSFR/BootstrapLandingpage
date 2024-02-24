@@ -7,7 +7,7 @@ $(document).ready(() => {
         distance: '20%'
     })
 
-    ScrollReveal().reveal('.card', {
+    ScrollReveal().reveal('.first-card', {
         origin: 'right',
         duration: 2000,
         distance: '20%'
