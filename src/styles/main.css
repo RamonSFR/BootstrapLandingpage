@@ -20,7 +20,8 @@
 .section-title,
 .section-title:hover,
 .nav-link:hover,
-.nav-link {
+.nav-link,
+.nav-link:focus {
     color: #fff;
 }
 
@@ -28,3 +29,20 @@
     background-color: #e0fbfc;
     color: #253237;
 }
+
+.navbar-toggler {
+    background-color: #e0fbfc;
+}
+
+span {
+    color: #e0fbfc;
+}
+
+#home {
+    background-color: #5C6B73;
+}
+
+#home p {
+    color: #ffeae6;
+}
+
