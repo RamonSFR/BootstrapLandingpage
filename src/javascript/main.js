@@ -1,5 +1,5 @@
 $(document).ready(() => {
-    $('#tel').mask('(00) 0000-00000', { placeholder: '(__) ____-____' });
+    $('#tel').mask('(00) 00000-0000', { placeholder: '(__) ____-____' });
     
     ScrollReveal().reveal('.home-text', {
         origin: 'left',
